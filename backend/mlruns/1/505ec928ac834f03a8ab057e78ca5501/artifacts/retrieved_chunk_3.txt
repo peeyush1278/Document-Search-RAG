@@ -1,0 +1,19 @@
+quadratic
+programming
+problem for the
+SVM (Section 12.5).not affect the optimal w, bbut yields a tidier form when we compute the
+gradient. Then, our objective becomes
+min
+w,b1
+2∥w∥2(12.18)
+subject to yn(⟨w,xn⟩+b)⩾1 for all n= 1, . . . , N . (12.19)
+Equation (12.18) is known as the hard margin SVM . The reason for the hard margin SVM
+expression “hard” is because the formulation does not allow for any vi-
+olations of the margin condition. We will see in Section 12.2.4 that this
+©2024 M. P. Deisenroth, A. A. Faisal, C. S. Ong. Published by Cambridge University Press (2020).378 Classification with Support Vector Machines
+“hard” condition can be relaxed to accommodate violations if the data is
+not linearly separable.
+12.2.3 Why We Can Set the Margin to 1
+In Section 12.2.1, we argued that we would like to maximize some value
+r, which represents the distance of the closest example to the hyperplane.
+In Section 12.2.2, we scaled the data such that the closest example is of

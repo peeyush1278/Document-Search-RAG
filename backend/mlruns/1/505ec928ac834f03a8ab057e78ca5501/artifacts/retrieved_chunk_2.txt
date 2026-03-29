@@ -1,0 +1,32 @@
+r, which represents the distance of the closest example to the hyperplane.
+In Section 12.2.2, we scaled the data such that the closest example is of
+distance 1to the hyperplane. In this section, we relate the two derivations,
+and show that they are equivalent.
+Theorem 12.1. Maximizing the margin r, where we consider normalized
+weights as in (12.10) ,
+max
+w,b,rr|{z}
+margin
+subject to yn(⟨w,xn⟩+b)⩾r| {z }
+data fitting,∥w∥= 1|{z}
+normalization, r > 0,(12.20)
+is equivalent to scaling the data, such that the margin is unity:
+min
+w,b1
+2∥w∥2
+|{z}
+margin
+subject to yn(⟨w,xn⟩+b)⩾1| {z }
+data fitting.(12.21)
+Proof Consider (12.20). Since the square is a strictly monotonic trans-
+formation for non-negative arguments, the maximum stays the same if we
+consider r2in the objective. Since ∥w∥= 1 we can reparametrize the
+equation with a new weight vector w′that is not normalized by explicitly
+usingw′
+∥w′∥. We obtain
+max
+w′,b,rr2
+subject to ynw′
+∥w′∥,xn
++b
+⩾r, r > 0.(12.22)

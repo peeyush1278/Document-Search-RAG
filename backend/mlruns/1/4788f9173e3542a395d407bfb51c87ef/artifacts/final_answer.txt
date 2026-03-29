@@ -1,0 +1,7 @@
+This PDF appears to be a personal profile or resume of a data scientist named Peeyush Choudhary. It highlights his experience and skills in AI and data science, particularly in machine learning, natural language processing, and deploying models using Flask with basic AWS/Docker exposure.
+
+The profile mentions his focus on building practical and scalable AI solutions for startup environments. It also lists his technical skills, including languages such as Python, SQL, and Java Script/Java.
+
+Additionally, the PDF mentions a project called "Recommender System 2020" which involves building a system to suggest similar items by analyzing patterns in user/data features, enhancing personalized content delivery. It also mentions processing and cleaning domain data, engineering feature vectors, and computing similarity scores to generate relevant recommendations.
+
+Overall, this PDF appears to be a showcase of Peeyush Choudhary's skills and experience as a data scientist, highlighting his ability to work on real-world projects and deploy AI solutions.

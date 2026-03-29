@@ -1,0 +1,29 @@
+x∈RD:f(x) = 0	. (12.3)
+An illustration of the hyperplane is shown in Figure 12.2, where the
+vector wis a vector normal to the hyperplane and bthe intercept. We can
+derive that wis a normal vector to the hyperplane in (12.3) by choosing
+any two examples xaandxbon the hyperplane and showing that the
+vector between them is orthogonal to w. In the form of an equation,
+f(xa)−f(xb) =⟨w,xa⟩+b−(⟨w,xb⟩+b) (12.4a)
+=⟨w,xa−xb⟩, (12.4b)
+Draft (2024-01-15) of “Mathematics for Machine Learning”. Feedback: https://mml-book.com .12.1 Separating Hyperplanes 373
+Figure 12.2
+Equation of a
+separating
+hyperplane (12.3).
+(a) The standard
+way of representing
+the equation in 3D.
+(b) For ease of
+drawing, we look at
+the hyperplane edge
+on.w
+(a) Separating hyperplane in 3Dw
+.
+0.Positive
+.
+Negativeb
+(b) Projection of the setting in (a) onto
+a plane
+where the second line is obtained by the linearity of the inner product
+(Section 3.2). Since we have chosen xaandxbto be on the hyperplane,
