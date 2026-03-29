@@ -1,0 +1,44 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: rag_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    volumes:
+      - ./backend/chroma_db:/app/chroma_db  
+    depends_on:
+      - mlflow
+    networks:
+      - rag_network
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: rag_frontend
+    ports:
+      - "8501:8501"
+    environment:
+      - BACKEND_URL=http://backend:8000
+    depends_on:
+      - backend
+    networks:
+      - rag_network
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.13.0
+    container_name: rag_mlflow
+    ports:
+      - "5000:5000"
+    command: mlflow server --host 0.0.0.0 --port 5000
+    networks:
+      - rag_network
+
+networks:
+  rag_network:
+    driver: bridge
