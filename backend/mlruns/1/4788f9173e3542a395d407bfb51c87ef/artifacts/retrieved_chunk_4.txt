@@ -1,5 +1,0 @@
-R e c o m m e n d e r  S y s t e m 2 0 2
-T e c h  S t a c k :  P y t h o n ,  J u p y t e r  N o t e b o o k ,  C o n t e n t - b a s e d  F i l t e r i n g ,  T F - I D F  /  S i m i l a r i t y  /  M o d e l  E v a l u a t i o n
-B u i l t  a  R e c o m m e n d e r  S y s t e m  t o  s u g g e s t  s i m i l a r  i t e m s  b y  a n a l y z i n g  p a t t e r n s  i n  u s e r / d a t a  f e a t u r e s ,  e n h a n c i n g  p e r s o n a l i z e d  c o n t e n t  d e l i v e r y .
-P r o c e s s e d  a n d  c l e a n e d  d o m a i n  d a t a ,  e n g i n e e r e d  f e a t u r e  v e c t o r s ,  a n d  c o m p u t e d  s i m i l a r i t y  s c o r e s  t o  g e n e r a t e  r e l e v a n t  r e c o m m e n d a t i o n s .
-E v a l u a t e d  m o d e l  e f f e c t i v e n e s s  u s i n g  s t a n d a r d  m e t r i c s  a n d  i t e r a t i v e l y  i m p r o v e d  t h e  s y s t e m  f o r  b e t t e r  a c c u r a c y  a n d  r e l e v a n c e

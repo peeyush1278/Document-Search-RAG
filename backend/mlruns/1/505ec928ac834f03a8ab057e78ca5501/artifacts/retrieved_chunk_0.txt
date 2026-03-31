@@ -1,48 +1,0 @@
-equation with a new weight vector w′that is not normalized by explicitly
-usingw′
-∥w′∥. We obtain
-max
-w′,b,rr2
-subject to ynw′
-∥w′∥,xn
-+b
-⩾r, r > 0.(12.22)
-Equation (12.22) explicitly states that the distance ris positive. Therefore,
-we can divide the first constraint by r, which yields Note that r >0
-because we
-assumed linear
-separability, and
-hence there is no
-issue to divide by r.max
-w′,b,rr2
-subject to yn
-*
-w′
-∥w′∥r|{z}
-w′′,xn+
-+b
-r|{z}
-b′′
-⩾1, r > 0(12.23)
-Draft (2024-01-15) of “Mathematics for Machine Learning”. Feedback: https://mml-book.com .12.2 Primal Support Vector Machine 379
-Figure 12.6
-(a) Linearly
-separable and
-(b) non-linearly
-separable data.
-x(1)x(2)
-(a) Linearly separable data, with a large
-margin
-x(1)x(2)(b) Non-linearly separable data
-renaming the parameters to w′′andb′′. Since w′′=w′
-∥w′∥r, rearranging for
-rgives
-∥w′′∥=w′
-∥w′∥r=1
-r·w′
-∥w′∥=1
-r. (12.24)
-By substituting this result into (12.23), we obtain
-max
-w′′,b′′1
-∥w′′∥2

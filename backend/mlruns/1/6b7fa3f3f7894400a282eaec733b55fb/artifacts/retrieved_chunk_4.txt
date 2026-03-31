@@ -1,7 +1,0 @@
-D a t a Q u e s t  P r o j e c M a r c h - 2 0 2
-O n l i n
-T e c h  S t a c k :  P y t h o n ,  P a n d a s ,  N u m P y ,  D a t a  C l e a n i n g  &  E D A ,  J u p y t e r  N o t e b o o k
-D e s i g n e d  a n d  e x e c u t e d  a n  e n d - t o - e n d  d a t a  a n a l y s i s  p r o j e c t  o n  a n  a c c i d e n t  s e v a r i t y  d a t a s e t  t o  u n c o v e r  k e y  i n s i g h t s ,  t r e n d s ,  a n d  v i e w e r  p r e f e r e n c e s  f r o m  
-r a w  s t r u c t u r e d  d a t a .
-P e r f o r m e d  c o m p r e h e n s i v e  d a t a  p r e p r o c e s s i n g ,  e x p l o r a t o r y  a n a l y s i s ,  f e a t u r e  e x t r a c t i o n ,  a n d  v i s u a l i z a t i o n  t o  i n t e r p r e t  p a t t e r n s  a n d  c o r r e l a t i o n s  a c r o s s  
-a t t r i b u t e s .

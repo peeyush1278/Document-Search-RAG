@@ -1,6 +1,0 @@
-T w i t t e r  S e n t i m e n t  A n a l y s i s  E n g i n 2 0 2
-T e c h  S t a c k :  P y t h o n ,  N L P ,  T F - I D F ,  L o g i s t i c  R e g r e s s i o n ,  S c i k i t - l e a r n
-D e v e l o p e d  a n  N L P  p i p e l i n e  t o  c l a s s i f y  t w e e t  s e n t i m e n t  ( p o s i t i v e / n e g a t i v e )  f o r  r e a l - t i m e  o p i n i o n  a n a l y s i s .
-P r e p r o c e s s e d  r a w  t e x t  d a t a  u s i n g  t o k e n i z a t i o n ,  s t o p - w o r d  r e m o v a l ,  a n d  T F - I D F  v e c t o r i z a t i o n .
-T r a i n e d  a  L o g i s t i c  R e g r e s s i o n  m o d e l  a c h i e v i n g  7 7 %  a c c u r a c y ,  w i t h  p e r f o r m a n c e  e v a l u a t e d  u s i n g  s t a n d a r d  c l a s s i fi c a t i o n  m e t r i c s
-R e c o m m e n d e r  S y s t e m 2 0 2
